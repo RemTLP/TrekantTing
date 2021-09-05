@@ -1,4 +1,5 @@
 ///Har brugt proccesing til at lave sierpinski trekanten.
+///Tænkte bare det vil være sjovt.
 
 float x1, y1;
 float x2, y2;
