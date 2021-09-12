@@ -1,0 +1,17 @@
+randomPoint create
+x1 random width
+y1 random height
+x2 random width	
+y2 random height
+x3 random width
+y3 random height
+
+randompoint choose(3)
+
+if point == 0 
+x = ((x1 +x2) / 2)
+y = ((y1 +y2) / 2)
+
+else if point == 1
+x = ((x1 +x2) / 2)
+y = ((y1 +y2) / 2)
