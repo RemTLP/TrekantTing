@@ -1,6 +1,4 @@
 ///Har brugt proccesing til at lave sierpinski trekanten.
-///Tænkte bare det vil være sjovt.
-
 float x1, y1;
 float x2, y2;
 float x3, y3;
@@ -31,7 +29,7 @@ void draw() {
 
     if (r == 0) {
       x = ((x + x1) * 0.5);
-      y = ((y +  y2) * 0.5);
+      y = ((y +  y1) * 0.5);
     
     } else if (r == 1) {
       x = ((x + x2) * 0.5);
