@@ -1,9 +1,11 @@
 ///Har brugt proccesing til at lave sierpinski trekanten.
+
 float x1, y1;
 float x2, y2;
 float x3, y3;
 float x, y;
 
+///Giver hver x og y en random kordinat 
 void setup() {
   size(800,800);
   x1 = random(width);
@@ -12,6 +14,7 @@ void setup() {
   y2 = random(height);  
   x3 = random(width);
   y3 = random(height);
+
   
   background(0);
   stroke(255);
@@ -24,9 +27,10 @@ void setup() {
 void draw() {
   {
     point(x, y);
-    int r = floor(random(3));
+    int r = floor(random(3));///Siger at den skal vælge fra et tal mellem 0,1,2
     strokeWeight(3);
 
+///for at finde midtpunktet mellem to punkter
     if (r == 0) {
       x = ((x + x1) * 0.5);
       y = ((y +  y1) * 0.5);
